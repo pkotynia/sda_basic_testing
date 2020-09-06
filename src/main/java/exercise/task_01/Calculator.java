@@ -14,4 +14,11 @@ package exercise.task_01;
 
 public class Calculator {
 
+    public int add(int summand1, int summand2) {
+        return summand1 + summand2;
+    }
+
+    public double divide(double dividend, double divisor) {
+        return dividend/divisor;
+    }
 }
